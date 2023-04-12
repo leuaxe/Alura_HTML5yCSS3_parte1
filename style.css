@@ -17,3 +17,11 @@ p{
 em strong{
     color: red;
 }
+
+#banner{
+    width: 100%;
+}
+
+.items{
+    font-style: italic;
+}
