@@ -23,10 +23,11 @@ em strong{
 }
 
 .principal{
-    background-color: #ccc;;
+    background-color: #cccccc;
+    padding: 20px;
 }
 
-h2{
+h2,h3{
     text-align: center;
 }
 
@@ -35,5 +36,17 @@ h2{
 }
 
 .diferenciales{
-    background-color: white;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }
