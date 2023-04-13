@@ -22,6 +22,18 @@ em strong{
     width: 100%;
 }
 
+.principal{
+    background-color: #ccc;;
+}
+
+h2{
+    text-align: center;
+}
+
 .items{
     font-style: italic;
+}
+
+.diferenciales{
+    background-color: white;
 }
