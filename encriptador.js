@@ -1,13 +1,13 @@
 var frase = "bienvenidos";
 var frase2 = "";
 
-/***/
+/*e => enter
+  i -> imes
+  a -> ai
+  o -> ober
+  u -> ufat*/
 
-var a = [];
-var e = [];
-var i = [];
-var o = [];
-var u = [];
+var inicio = 0;
 
 for (let index = 0; index < frase.length; index++) {
     var letra = frase.charAt(index);
@@ -19,7 +19,9 @@ for (let index = 0; index < frase.length; index++) {
             e.push(index);
             break;
         case 'i':
-            i.push(index);
+            frase2 += frase.substring(inicio, index);
+            frase2 += "mes";
+            inicio = index;
             break;
         case 'o':
             o.push(index);
