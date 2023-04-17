@@ -73,3 +73,15 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+
+/*Pie de pagina*/
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+    
+}
+
+footer p{
+    color: white;
+}
